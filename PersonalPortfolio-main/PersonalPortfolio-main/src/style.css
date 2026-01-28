@@ -684,7 +684,7 @@ p {
 
 /* Certifications Section */
 .certifications-section {
-    padding: 100px 0;
+    padding: 20px 0;
     background: linear-gradient(to bottom, var(--light-gray), var(--white));
 }
 
@@ -694,6 +694,7 @@ p {
 }
 
 .cert-category h3 {
+    padding: 20px 0;
     color: var(--charcoal);
     font-size: 1.8rem;
     margin-bottom: 35px;
