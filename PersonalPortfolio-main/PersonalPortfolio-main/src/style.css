@@ -34,9 +34,9 @@ body {
 /* Container */
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
 /* Typography */
@@ -65,6 +65,22 @@ p {
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
 }
+
+.full-width-section {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding: 0 40px;
+}
+
+section {
+    padding: 60px 0; /* Reduced from 80px-100px */
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0 60px;
+}
+
 
 /* Header & Navigation */
 .header {
@@ -165,9 +181,9 @@ p {
 
 /* Hero Section */
 .hero {
-    padding: 180px 0 100px;
+    padding: 120px 0 60px;
     background: linear-gradient(135deg, rgba(230, 230, 250, 0.3) 0%, rgba(245, 208, 214, 0.3) 100%);
-    margin-top: 70px;
+    margin-top: 80px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -188,6 +204,7 @@ p {
 .hero-content {
     max-width: 800px;
     margin: 0 auto;
+    padding: 1rem 20px;
 }
 
 .hero h1 {
@@ -453,9 +470,7 @@ p {
 }
 
 .project-image {
-    height: 280px;
-    overflow: hidden;
-    position: relative;
+   display: none;
 }
 
 .project-image img {
